@@ -183,6 +183,7 @@
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\OrdersController.cs" />
     <Compile Include="Controllers\Order_DetailsController.cs" />
     <Compile Include="Controllers\ShippersController.cs" />
     <Compile Include="Filters\InitializeSimpleMembershipAttribute.cs" />
@@ -190,6 +191,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountModels.cs" />
+    <Compile Include="Models\Orders.cs" />
     <Compile Include="Models\Order_Details.cs" />
     <Compile Include="Models\Shippers.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -319,6 +321,11 @@
     <Content Include="Views\Order_Details\Create.cshtml" />
     <Content Include="Views\Order_Details\Edit.cshtml" />
     <Content Include="Views\Order_Details\Delete.cshtml" />
+    <Content Include="Views\Orders\Index.cshtml" />
+    <Content Include="Views\Orders\Details.cshtml" />
+    <Content Include="Views\Orders\Create.cshtml" />
+    <Content Include="Views\Orders\Edit.cshtml" />
+    <Content Include="Views\Orders\Delete.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
